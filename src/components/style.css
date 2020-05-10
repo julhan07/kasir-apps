@@ -1,0 +1,64 @@
+.navbar-app {
+  background-color: #20232a !important;
+  margin-bottom: 30px;
+}
+
+.navbar-app a {
+  color: aliceblue !important;
+}
+
+.navbar-app .brand {
+  font-weight: bold;
+}
+
+.navbar-app .mr-auto {
+  margin-left: 5%;
+}
+
+.full-height {
+  height: 100% !important;
+}
+
+.navbar-app span {
+  color: #61dafb;
+}
+
+.app-header {
+  background-color: rgb(255, 255, 255) !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+.avatar-selector {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
+  padding-bottom: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+/* .card {
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+.pin {
+  border: 2px solid green !important;
+  margin-left: 0 !important;
+}
+
+.pin-label {
+  font-weight: 600px !important;
+  font-size: 17px !important;
+  margin-left: 20px !important;
+}
+
+.card-avatar {
+  background-color: #e8e8e8;
+  position: relative;
+  padding-bottom: 10px;
+  color: #584f4f;
+}

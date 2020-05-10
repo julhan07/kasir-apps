@@ -1,0 +1,17 @@
+html body {
+  height: 100% !important;
+  margin: 0 !important;
+}
+
+.screen {
+  position: absolute;
+  z-index: 1;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 130, 0.2), black),
+    url("https://lh3.googleusercontent.com/4QzWyW00ZTFR-XrizhJk9snWXxHij_9it4rh64vYf-d-taLklj_ioUtRxwmmOYEqCfjLOJIi=w1080-h608-p-no-v0");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
