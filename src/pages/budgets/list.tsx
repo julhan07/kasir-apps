@@ -73,16 +73,16 @@ const AnggotaTypeList = React.memo((props: { type: any }) => {
       ),
     },
     {
-      title: "Kas",
+      title: "Nama",
       dataIndex: "budget_type",
       key: "budget_type",
       render: (budget_type: any) => <span>{budget_type.name}</span>,
     },
-    {
-      title: "Jenis Kas",
-      dataIndex: "type",
-      key: "type",
-    },
+    // {
+    //   title: "Jenis Kas",
+    //   dataIndex: "type",
+    //   key: "type",
+    // },
     {
       title: "Asal Dana",
       dataIndex: "asal_dana",
@@ -143,20 +143,10 @@ const AnggotaTypeList = React.memo((props: { type: any }) => {
       ),
     },
     {
-      title: "Kas",
+      title: "Keperluan",
       dataIndex: "budget_type",
       key: "budget_type",
       render: (budget_type: any) => <span>{budget_type.name}</span>,
-    },
-    {
-      title: "Jenis Kas",
-      dataIndex: "type",
-      key: "type",
-    },
-    {
-      title: "Aggaran Dari",
-      dataIndex: "asal_dana",
-      key: "asal_dana",
     },
     {
       title: "Jumlah",
@@ -202,7 +192,7 @@ const AnggotaTypeList = React.memo((props: { type: any }) => {
     <Spin spinning={budgetContext?.loading}>
       <Row>
         <HeaderPage
-          title={props.type}
+          title={props.type == "Kas Keluar" ? "Biaya-Biaya" : props.type}
           action={
             <Link to="?action=add">
               <ButtonAdd Title="Tambah" />
